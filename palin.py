@@ -1,0 +1,11 @@
+s=int(input())
+temp=s
+reverse=0
+while(s>0):
+  digit=s%10
+  reverse=reverse*10+digit
+  s=s//10
+if(temp==reverse):
+  print("yes")
+else:
+  print("no")
