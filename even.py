@@ -1,8 +1,5 @@
-n=int(input())
-if(n<0):
-	print("invalid")
-elif(n%2==0):
-	print("even")
-else:
-	print("odd")
-      
+a,b=list(map(int,input().split()))
+for i in range(a+1,b):
+  if i%2==0:
+   print(i,end=" ")
+
